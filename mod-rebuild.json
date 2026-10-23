@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "ContortHelper",
+  "version": "1.5.5",
+  "mode": "local-rebuild",
+  "archive": {
+    "path": "ContortHelper.zip",
+    "sha256": "d8b42128a808e68d30329baa9299fdb41bf7d24743635dec3137c36bcc87956a",
+    "downloadUrl": "https://gamebanana.com/mmdl/544071",
+    "fileId": 544071
+  },
+  "originalAssembly": {
+    "entry": "ContortHelper.dll",
+    "sha256": "c3983e67e1b535fbb1e0f0a541e8c78ad8f4cd150f66636c783a83dc5ffb4488"
+  },
+  "license": "CC-BY-NC-ND-4.0",
+  "upstream": "https://gamebanana.com/mods/53701",
+  "recipe": "Recipe/recipe.json",
+  "assemblyName": "Celeste.Mods.Contort",
+  "dependencies": [],
+  "decompileTypes": [
+    {
+      "name": "ContortHelper.AbstractCoroutineTrigger",
+      "path": "ContortHelper/AbstractCoroutineTrigger.cs",
+      "sha256": "1e9a9674508417ac635a1be2c4f255667bbcdc84faf054401f24998f2cca751f"
+    },
+    {
+      "name": "ContortHelper.AbstractPoemCutsceneEntity",
+      "path": "ContortHelper/AbstractPoemCutsceneEntity.cs",
+      "sha256": "2402abdee8fb8023c1a202898d57f3371d19dff58702c27c9a0dba9236307e07"
+    },
+    {
+      "name": "ContortHelper.AbstractStayTrigger",
+      "path": "ContortHelper/AbstractStayTrigger.cs",
+      "sha256": "4be371cecaaec6472a0b242757b49a5929ad01b752149404fa55c9bb84bf67ed"
+    },
+    {
+      "name": "ContortHelper.AbstractTrigger",
+      "path": "ContortHelper/AbstractTrigger.cs",
+      "sha256": "eb45ae84fc5efb34312d19d3eafa93c1de9e7ad774c5b93589e2f44336f60d9a"
+    },
+    {
+      "name": "ContortHelper.AlphaLerpLightSource",
+      "path": "ContortHelper/AlphaLerpLightSource.cs",
+      "sha256": "e4722c0199b5f47313218c7593d8e1a134f6b3465edb4e2cd119511e87befa79"
+    },
+    {
+      "name": "ContortHelper.AnxietyEffectController",
+      "path": "ContortHelper/AnxietyEffectController.cs",
+      "sha256": "94be2e27bcf864f718b7fc0127ad7376d4d2fda7cbe00e26bdd98113c3a2a511"
+    },
+    {
+      "name": "ContortHelper.AnxietyEffectTrigger",
+      "path": "ContortHelper/AnxietyEffectTrigger.cs",
+      "sha256": "9dffa67b5542522aaa6a1c698c00ca0c9364213adfff51c24dc67c88b3bcd20c"
+    },
+    {
+      "name": "ContortHelper.ArithmeticOperations",
+      "path": "ContortHelper/ArithmeticOperations.cs",
+      "sha256": "970a8525ee6031516514d3b1f8fe7be14138d38bf1978b1d5fa057ca15291c5f"
+    },
+    {
+      "name": "ContortHelper.BetterConfettiRenderer",
+      "path": "ContortHelper/BetterConfettiRenderer.cs",
+      "sha256": "6a5299b46d09635ad193d0f0de1c009fa68056b10b7cbf8fe49f4791daf7cf0e"
+    },
+    {
+      "name": "ContortHelper.BetterHiresSnow",
+      "path": "ContortHelper/BetterHiresSnow.cs",
+      "sha256": "0d05ba0b3b7a235df1987917907c5b54b283ebdd4c2aea9fcdff1f000aa65ce0"
+    },
+    {
+      "name": "ContortHelper.BetterLightningStrike",
+      "path": "ContortHelper/BetterLightningStrike.cs",
+      "sha256": "6910b5bd6ae7522176bf9f5d84976e8a24019273b676ad6360fcfb450ca07705"
+    },
+    {
+      "name": "ContortHelper.BinaryPackerElements",
+      "path": "ContortHelper/BinaryPackerElements.cs",
+      "sha256": "e168735b31eaeec28f08913c5bba411282f4e509ba9a0b879bc19a0c51eb79d1"
+    },
+    {
+      "name": "ContortHelper.BurstEffect",
+      "path": "ContortHelper/BurstEffect.cs",
+      "sha256": "0b09eb21acc9e5946ef22e650097710a76656126b6660eb8ab2b2914579aba38"
+    },
+    {
+      "name": "ContortHelper.BurstEffectTrigger",
+      "path": "ContortHelper/BurstEffectTrigger.cs",
+      "sha256": "7caae7c8a891b88a733cf5ba6daa4a8709e140a92d0e98680fb1003f00ce7184"
+    },
+    {
+      "name": "ContortHelper.BurstZone",
+      "path": "ContortHelper/BurstZone.cs",
+      "sha256": "b3992b10afbaa8214302325eb7dbd2ea629f0b59cb90780644800930a814d89b"
+    },
+    {
+      "name": "ContortHelper.ColorLerpLightSource",
+      "path": "ContortHelper/ColorLerpLightSource.cs",
+      "sha256": "f6cc5b8a012f4b73c0c5850eaa5ef54c56e6f454ad1088a54c36fe4e06796569"
+    },
+    {
+      "name": "ContortHelper.ColorUtilities",
+      "path": "ContortHelper/ColorUtilities.cs",
+      "sha256": "3b44a34789d774ebe2e21bf42ef45520d7ee4f59ddc059e330b75c7935a80f7a"
+    },
+    {
+      "name": "ContortHelper.ConfettiSpawnZone",
+      "path": "ContortHelper/ConfettiSpawnZone.cs",
+      "sha256": "a58dcdbbe235830b42b0a429237937abd354e67bb482d4a3722fd9d306dee0d6"
+    },
+    {
+      "name": "ContortHelper.ContortModule",
+      "path": "ContortHelper/ContortModule.cs",
+      "sha256": "396a7d45ff4e41aa4eb97a3165a83b75997f82805e688d5bd47e7ae2d332cedb"
+    },
+    {
+      "name": "ContortHelper.ContortSettings",
+      "path": "ContortHelper/ContortSettings.cs",
+      "sha256": "bad83d07686fc8b2c6be590f2d46aba7c354cd5a0aa1cef3c3e6ea62ef81ea1f"
+    },
+    {
+      "name": "ContortHelper.ControllerEntity",
+      "path": "ContortHelper/ControllerEntity.cs",
+      "sha256": "f43239690f4ed387280c7235b17be233807829071dfe0e2d654c2f73ded2aa59"
+    },
+    {
+      "name": "ContortHelper.CustomConfettiTrigger",
+      "path": "ContortHelper/CustomConfettiTrigger.cs",
+      "sha256": "9075009a0acf74e41118eff286d591834ff9a83f95c206e2e706bd5154c0eaa8"
+    },
+    {
+      "name": "ContortHelper.CustomMemo",
+      "path": "ContortHelper/CustomMemo.cs",
+      "sha256": "229632d7f71c9219499cf534a583da4ef8bcc6e569e684b8f8334addcaa6ceec"
+    },
+    {
+      "name": "ContortHelper.CustomNote",
+      "path": "ContortHelper/CustomNote.cs",
+      "sha256": "7261e694ddea5d2a99fd891ed69043c2380aa410615ca83be115abac10a8df82"
+    },
+    {
+      "name": "ContortHelper.DepthUtilities",
+      "path": "ContortHelper/DepthUtilities.cs",
+      "sha256": "bb3464a5405532377e74cd90f3101501228af6c8ce8d889e8d63e9afcc8c2625"
+    },
+    {
+      "name": "ContortHelper.EaseUtilities",
+      "path": "ContortHelper/EaseUtilities.cs",
+      "sha256": "4f3acd15265e50775244dff6e441ad1e7b58f30fb76c9a66ee46c47199553f4c"
+    },
+    {
+      "name": "ContortHelper.EntityDatas",
+      "path": "ContortHelper/EntityDatas.cs",
+      "sha256": "4e9e7cf0e7ebceb7925d756925438436215ce405efbe5d8df69bcf31e6c36a4a"
+    },
+    {
+      "name": "ContortHelper.FlashTrigger",
+      "path": "ContortHelper/FlashTrigger.cs",
+      "sha256": "2b49be2b616f535a2d3cf307081abd3866297c808a22d4d083fb9b93e86b7e46"
+    },
+    {
+      "name": "ContortHelper.FlickerLightSource",
+      "path": "ContortHelper/FlickerLightSource.cs",
+      "sha256": "e426df6f402632fd4c5f7ff8c6b937368c4bce9bc4a71a050c5f2da73db2cdcc"
+    },
+    {
+      "name": "ContortHelper.FlickerLightSourcePath",
+      "path": "ContortHelper/FlickerLightSourcePath.cs",
+      "sha256": "15682cb690747cb2613707111a62094fe600a1cce02cc1b8d2636796bc57135f"
+    },
+    {
+      "name": "ContortHelper.FreezeTrigger",
+      "path": "ContortHelper/FreezeTrigger.cs",
+      "sha256": "3031e0b494ac09459e8093133d0828d947130f51adf8579e3b9f515831c1432e"
+    },
+    {
+      "name": "ContortHelper.GlitchEffectTrigger",
+      "path": "ContortHelper/GlitchEffectTrigger.cs",
+      "sha256": "3f185bc42601c2a0b6fe78bfc4bb67b45a8f76e093016eb803da46a689ff5e16"
+    },
+    {
+      "name": "ContortHelper.HighResolutionParticleBackdrop",
+      "path": "ContortHelper/HighResolutionParticleBackdrop.cs",
+      "sha256": "9c043cc2425f2d9dde9b480a11b17cfbed845af27e9ac4508b1f492f2f5c1fe4"
+    },
+    {
+      "name": "ContortHelper.IBurst",
+      "path": "ContortHelper/IBurst.cs",
+      "sha256": "07fd5087c7c83cde54944327b8448bab4cc178a5b6871ea7cd2ef9ee6f2565b9"
+    },
+    {
+      "name": "ContortHelper.IConfetti",
+      "path": "ContortHelper/IConfetti.cs",
+      "sha256": "fdf68badfff46bf43a4f3f451f6764da7c0fbe880bdd8fe842cf7407c1f5acf8"
+    },
+    {
+      "name": "ContortHelper.LightningStrikesController",
+      "path": "ContortHelper/LightningStrikesController.cs",
+      "sha256": "1a626118fb51f4a3898b9902b0d9e020e91d32d4a91205f5a9105a840789b622"
+    },
+    {
+      "name": "ContortHelper.LightningStrikeTrigger",
+      "path": "ContortHelper/LightningStrikeTrigger.cs",
+      "sha256": "74450a102c23e6a4d71b36759631b6e11e5bda4525df4af87c8b46587c40a073"
+    },
+    {
+      "name": "ContortHelper.LightSource",
+      "path": "ContortHelper/LightSource.cs",
+      "sha256": "4d1e2e18fc389886e3eb288ec47e33a32be2016ef5896bfcf4866ed58790a0aa"
+    },
+    {
+      "name": "ContortHelper.LightSourceZone",
+      "path": "ContortHelper/LightSourceZone.cs",
+      "sha256": "9b51b652637b7f0bfefd440e68e92d9cc4bf1432d200f6598715f9bbf3296526"
+    },
+    {
+      "name": "ContortHelper.MadelineSpotlightModifierTrigger",
+      "path": "ContortHelper/MadelineSpotlightModifierTrigger.cs",
+      "sha256": "1ee8ff58272708ccf3bda5c70dcac7f599d3239850b056834289d3bddd2fc44b"
+    },
+    {
+      "name": "ContortHelper.MomentumModifierTrigger",
+      "path": "ContortHelper/MomentumModifierTrigger.cs",
+      "sha256": "86b2a7ac7b98162cd225aa54076497145edf0b0b0b26c4bf4ad35de36d4911c8"
+    },
+    {
+      "name": "ContortHelper.RandomSoundTrigger",
+      "path": "ContortHelper/RandomSoundTrigger.cs",
+      "sha256": "267cfe03185864335641de3a2c9ff39ee0f059fa8eb37fe63537e7fc0b15da81"
+    },
+    {
+      "name": "ContortHelper.ScreenWipeModifierTrigger",
+      "path": "ContortHelper/ScreenWipeModifierTrigger.cs",
+      "sha256": "c86ed1c92c0372aca98524aa8eef0c1cf36582afe57b5f630a27818243b224e4"
+    },
+    {
+      "name": "ContortHelper.ScreenWipeTrigger",
+      "path": "ContortHelper/ScreenWipeTrigger.cs",
+      "sha256": "5a6f90b0eb0dbb7ff43af36670edb3861e933b90cf0154cdcb88720f9fdcc6cd"
+    },
+    {
+      "name": "ContortHelper.ShakeTrigger",
+      "path": "ContortHelper/ShakeTrigger.cs",
+      "sha256": "7981ae783e076f7052bbcf5ade08ad9648d4f28ac878cd58ecf68647f47de641"
+    },
+    {
+      "name": "ContortHelper.SpecificLightningStrikeTrigger",
+      "path": "ContortHelper/SpecificLightningStrikeTrigger.cs",
+      "sha256": "1d5a4bfad489af6856bb14e9889e7036216660ab1a664903ea1c3934f54b7726"
+    },
+    {
+      "name": "ContortHelper.TeleportationTarget",
+      "path": "ContortHelper/TeleportationTarget.cs",
+      "sha256": "14f832f409d38c4734df5d9c0923a88f659f84d0857a536af75fe82924c03ee9"
+    },
+    {
+      "name": "ContortHelper.TeleportationTrigger",
+      "path": "ContortHelper/TeleportationTrigger.cs",
+      "sha256": "d02528658cba8b6b9f68339b5c1a19778d273c1a996a62ac2e1bce99f48ac498"
+    },
+    {
+      "name": "ContortHelper.Vectors",
+      "path": "ContortHelper/Vectors.cs",
+      "sha256": "e355fc5fabad63b5f35c9cfa52d5981dd4687b53097d6a0411d67317ab0dc2c5"
+    }
+  ]
+}
